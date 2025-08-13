@@ -21,6 +21,6 @@ BT2
 C1. WWW là viết tắt của? World Wide Web<br>
 C2. URL là gì? Định vị một tài nguyên cụ thể trên web<br>
 C3. Web là hệ thống thông tin trong đó có các tài liệu và tài nguyên web khác được xác định bằng định vị tài nguyên thống nhất (URLs, chẳng hạn như https://example.com/), có thể được liên kết với nhau bằng <b>siêu liên kết</b> và có thể truy cập qua internet.
-The web í an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://examole.com/), which may be interlinked by <b>hyperlinks</b>, and are accessible over the internet.
+The web í an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by <b>hyperlinks</b>, and are accessible over the internet.
 C4. HTML là viết tắt của? HyperText Makeup Language
 C5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một <b>mã HTML</b> riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người khác.
