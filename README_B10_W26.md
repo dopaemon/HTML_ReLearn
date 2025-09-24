@@ -40,7 +40,6 @@ Giao diện của trang lienHe.html có phần header và footer giống với t
 
 Tạo form để người dùng có thể liên hệ với tiệm sách. Vì chưa học tới phần web back-end, front-end, trước tiên, dùng [**HttpBin**](http://httpbin.org/get).
 ```html
-<h2>Liên hệ với tiệm sách</h2>
         <form action="http://httpbin.org/get" method="get">
             <fieldset>
                 <legend>Liên hệ với tiệm sách</legend>
