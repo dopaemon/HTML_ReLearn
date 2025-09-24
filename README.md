@@ -27,8 +27,6 @@
 
 [README_B7_Web6](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B7_Web6.md)
 
-[_config](https://github.com/dopaemon/HTML_ReLearn/blob/master/_config.yml)
-
 [README_B6_Web5](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B6_Web5.md)
 
 [B7_W6_BT1.11](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.11.html)
