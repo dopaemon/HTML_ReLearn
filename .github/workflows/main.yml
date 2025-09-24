@@ -16,7 +16,7 @@ jobs:
       - name: Generate README.md
         run: |
           echo "# File List" > README.md
-          for f in $(find . -maxdepth 1 -type f ! -name "README.md" ! -name ".gitignore"); do
+          for f in $(find . -maxdepth 1 -type f ! -name "README.md" ! -name ".gitignore" ! -name "_config.yml"); do
             fname=$(basename "$f")
             name="${fname%.*}"
             url="https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_REF#refs/heads/}/$fname"
