@@ -145,13 +145,13 @@ Một phần tử có kiểu hiển thị là inline (inline-level) sẽ không 
 
 #### 1.1.7 BT
 
-* [**Bài Tập 1**](https://dopaemon.github.io/HTML_ReLearn/Trang_Web_Dau_Tien.html)
+* [**Bài Tập 1**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien.html)
 
-* [**Bài Tập 2**](https://dopaemon.github.io/HTML_ReLearn/B5_W4_BT2.html)
+* [**Bài Tập 2**](https://girrint.github.io/Hoc_thiet_ke_Web/B5_W4_BT2.html)
 
-* [**Bài Tập 3**](https://dopaemon.github.io/HTML_ReLearn/B5_W4_BT3.html)
+* [**Bài Tập 3**](https://girrint.github.io/Hoc_thiet_ke_Web/B5_W4_BT3.html)
 
-* [**Bài Tập 4**](https://dopaemon.github.io/HTML_ReLearn/B5_W4_BT4.html)
+* [**Bài Tập 4**](https://girrint.github.io/Hoc_thiet_ke_Web/B5_W4_BT4.html)
 
 #### 1.1.8 Câu hỏi ôn tập
 

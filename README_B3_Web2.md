@@ -93,7 +93,7 @@ Giao diện của trang web, hay của ứng dụng web là phần nội dung đ
 
 **BT3** 
 
-* [**Bài 3**](https://dopaemon.github.io/HTML_ReLearn/B3_W2_BT3.html)
+* [**Bài 3**](https://girrint.github.io/Hoc_thiet_ke_Web/B3_W2_BT3.html)
 
 **Câu hỏi ôn tập**
 
