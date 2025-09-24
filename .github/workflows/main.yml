@@ -1,0 +1,33 @@
+name: Generate README
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate README.md
+        run: |
+          echo "# File List" > README.md
+          for f in $(find . -maxdepth 1 -type f ! -name "README.md" ! -name ".gitignore"); do
+            fname=$(basename "$f")
+            name="${fname%.*}"
+            url="https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_REF#refs/heads/}/$fname"
+            echo "[$name]($url)" >> README.md
+            echo "" >> README.md
+          done
+
+      - name: Commit and push README.md
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update README.md" || echo "No changes to commit"
+          git push
