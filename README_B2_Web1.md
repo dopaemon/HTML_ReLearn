@@ -34,7 +34,7 @@ Web hay WWW (world wide web) là không gian thông tin toàn cầu được t�
 
 **BT2**
 
-* [**bai_tap2.html**](https://girrint.github.io/Hoc_thiet_ke_Web/B2_W1_BT2.html)
+* [**bai_tap2.html**](https://dopaemon.github.io/HTML_ReLearn/B2_W1_BT2.html)
 
 ### 1.5 Câu hỏi ôn tập
 

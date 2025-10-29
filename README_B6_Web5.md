@@ -78,7 +78,7 @@ biểu diễn tất cả các chữ cái trong bộ kí tự Unicode, nhưng đi
 với ASCII. Vì lý do này, UTF-8 nhanh chóng trở thành bộ mã hóa được sử dụng rộng rãi trong các tập tin, thư điện tử, 
 trang web, và phần mềm xử lý văn bản.
 
-* [**Hiển thị tiếng Việt**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien2.html)
+* [**Hiển thị tiếng Việt**](https://dopaemon.github.io/HTML_ReLearn/Trang_Web_Dau_Tien2.html)
 
 **Một số thông tin thêm về phần tử meta:**
 
@@ -105,7 +105,7 @@ hiển thị kết quả.
 
 **Bước 1:** Truy cập trang [validator](https://validator.w3.org/) 
 
-**Bước 2:** Dán địa chỉ này vào https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html rồi chọn check.
+**Bước 2:** Dán địa chỉ này vào https://dopaemon.github.io/HTML_ReLearn/Kiem_Tra_HTML.html rồi chọn check.
 
 **Để làm một trang web đơn giản, cần những gì?**
 
@@ -126,21 +126,21 @@ có phần mở rộng là .html. Sau đó, dùng trình duyệt để mở tậ
 
 **Bài Tập 1** 
 
-* [**Hiển thị tiếng Việt**](https://girrint.github.io/Hoc_thiet_ke_Web/Trang_Web_Dau_Tien2.html)
+* [**Hiển thị tiếng Việt**](https://dopaemon.github.io/HTML_ReLearn/Trang_Web_Dau_Tien2.html)
 
-* [**Kiểm tra html**](https://girrint.github.io/Hoc_thiet_ke_Web/Kiem_Tra_HTML.html)
+* [**Kiểm tra html**](https://dopaemon.github.io/HTML_ReLearn/Kiem_Tra_HTML.html)
 
 **Bài Tập 2**
 
-* [**BT2**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT2.html)
+* [**BT2**](https://dopaemon.github.io/HTML_ReLearn/B6_W5_BT2.html)
 
 **Bài Tập 3**
 
-* [**BT3**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT3.html)
+* [**BT3**](https://dopaemon.github.io/HTML_ReLearn/B6_W5_BT3.html)
 
 **Bài Tập 4**
 
-* [**BT4**](https://girrint.github.io/Hoc_thiet_ke_Web/B6_W5_BT4.html)
+* [**BT4**](https://dopaemon.github.io/HTML_ReLearn/B6_W5_BT4.html)
 
   
 ### 1.1.8 Câu hỏi ôn tập

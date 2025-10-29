@@ -1,4 +1,4 @@
-# Muốn làm web cần học nhưng gì?
+# Muốn làm web cần học những gì?
 
 ## 1.1 Muốn làm web cần học những gì?
 

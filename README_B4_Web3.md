@@ -78,7 +78,7 @@ Với văn bản thông thường, nội dung của văn bản được tổ ch�
 
 ### 1.1.6 BT
 
-* [**Bài tập 3**](https://girrint.github.io/Hoc_thiet_ke_Web/B4_W3_BT3.html)
+* [**Bài tập 3**](https://dopaemon.github.io/HTML_ReLearn/B4_W3_BT3.html)
 
 ### 1.1.7 Câu hỏi ôn tập
 

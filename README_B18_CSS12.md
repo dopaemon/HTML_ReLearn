@@ -2,7 +2,7 @@
 
 Bài trước: [CSS (11) - Bộ chọn theo trạng thái & thuộc tính](https://legiacong.blogspot.com/2023/06/css-11-bo-chon-theo-trang-thai-thuoc.html)
 
-\-----
+-----
 
 3.3 Ảnh nền
 -----------------
@@ -294,12 +294,12 @@ url(image3.png) right bottom no-repeat;
 Vì có một số phiên bản của trình duyệt IE không hỗ trợ chèn nhiều ảnh nền bằng thuộc tính _background_, nên để tăng khả năng tương thích của trang web, khi viết mã sẽ sử dụng thêm thuộc tính _background-image_ để dự phòng, sau đó là các hình ảnh của thuộc tính _background_. Nếu trình duyệt có hỗ trợ _background_, thì thuộc tính này sẽ đè thuộc tính _background-image_. Cuối cùng luôn dự phòng một màu nền bằng thuộc tính _background-color_. Ví dụ,
 ```css
 body {
-/\* cho các trình duyệt không hỗ trợ nhiều giá trị trong thuộc tính background \*/
-background-image: url(image\_fallback.png) top left no-repeat;
+/* cho các trình duyệt không hỗ trợ nhiều giá trị trong thuộc tính background */
+background-image: url(image_fallback.png) top left no-repeat;
 background:
 url(image1.png) left top no-repeat,
 url(image2.png) center center no-repeat,
 url(image3.png) right bottom no-repeat;
-background-color: papayawhip; /\* màu nền dự phòng \*/
+background-color: papayawhip; /* màu nền dự phòng */
 }
 ```

@@ -1,7 +1,5 @@
-  
-
 ### CSS (10) - Định dạng màu
-\-----
+-----
 
 3         Định dạng màu & nền
 =============================
@@ -21,7 +19,7 @@ Cách trực quan nhất để xác định một màu là dùng tên của nó.
 
 Ví dụ, một chỉ dẫn CSS có dùng tên màu:
 
-p { color: gray; } /\* văn bản trong p sẽ có màu xám \*/
+p { color: gray; } /* văn bản trong p sẽ có màu xám */
 
 Xem hình minh họa một số tên màu:
 
@@ -29,7 +27,7 @@ Xem hình minh họa một số tên màu:
 
   
 
-Xem thêm các tên màu tại địa chỉ: [https://www.w3schools.com/colors/colors\_names.asp](https://www.w3schools.com/colors/colors_names.asp)
+Xem thêm các tên màu tại địa chỉ: [https://www.w3schools.com/colors/colors_names.asp](https://www.w3schools.com/colors/colors_names.asp)
 
 **Giá trị số**
 
@@ -53,9 +51,9 @@ Xem hình minh họa về hệ màu RGB,
 
 **Lấy màu**
 
-\[Cách 1\] Cách dễ nhất để lấy được giá trị RGB của một màu là dùng công cụ có tên là Color Picker. Bạn hãy vào trang Google, tìm kiếm và học cách sử dụng công cụ này.
+[Cách 1] Cách dễ nhất để lấy được giá trị RGB của một màu là dùng công cụ có tên là Color Picker. Bạn hãy vào trang Google, tìm kiếm và học cách sử dụng công cụ này.
 
-\[Cách 2\] Cách khác để lấy giá trị màu là dùng Developer tools.
+[Cách 2] Cách khác để lấy giá trị màu là dùng Developer tools.
 
 Nếu chúng ta muốn lấy một màu có sẵn trên một trang web nào đó (sao chép màu), ví dụ lấy màu của các chữ cái google, thì làm như sau:
 
@@ -67,13 +65,13 @@ Nếu chúng ta muốn lấy một màu có sẵn trên một trang web nào đ�
 
   
 
-– Trong tab Elements/Styles \[1\], nhập một chỉ dẫn CSS có thuộc tính color, giá trị là một màu bất kì, ví dụ _color: red \[2\],_ bấm chuột trái vào ô vuông màu đỏ sau chữ _color_
+– Trong tab Elements/Styles [1], nhập một chỉ dẫn CSS có thuộc tính color, giá trị là một màu bất kì, ví dụ _color: red [2],_ bấm chuột trái vào ô vuông màu đỏ sau chữ _color_
 
-– Bấm chuột vào công cụ soi màu (eye droper) \[3\]
+– Bấm chuột vào công cụ soi màu (eye droper) [3]
 
-– Di chuyển công cụ soi màu vào vùng màu cần lấy \[4\], bấm chuột trái để lấy màu
+– Di chuyển công cụ soi màu vào vùng màu cần lấy [4], bấm chuột trái để lấy màu
 
-– Lấy giá trị màu dạng HEX \[5\], dạng RGB \[6\]
+– Lấy giá trị màu dạng HEX [5], dạng RGB [6]
 
 Ngoài ra, chúng ta có thể sử dụng các công cụ xử lý ảnh để lấy màu, như Photoshop, Illustrator.  
 
@@ -89,7 +87,7 @@ color: rgb(200, 178, 230);
 
 **_Dùng giá trị %,_**
 
-Bắt đầu là kí hiệu _rgb_, sau đó là ba giá trị % của ba màu cơ bản, giá trị % được tính bằng cách lấy “giá trị hệ 10”/255\*100%, ví dụ,
+Bắt đầu là kí hiệu _rgb_, sau đó là ba giá trị % của ba màu cơ bản, giá trị % được tính bằng cách lấy “giá trị hệ 10”/255*100%, ví dụ,
 
 color: rgb(78%, 70%, 90%);
 
@@ -159,7 +157,7 @@ Ví dụ, chỉ dẫn CSS sau sẽ thiết lập màu chữ xanh nhạt cho ph�
 
     }
 ```
-\[Kết quả\]
+[Kết quả]
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEh54can7DB7dVYbM_kgLu7_1pnWuCMJa8BMwsXQV0_-9hXS4_wItc5CRyZceBfbWh2NSfmZeXr62VOZLTulIKdrUBE7GAK4nAdWX6uzcVOXHDpM_09e_gKzKpQtZpIXk84WnM2ci0EcAiqCkVRhhWlEnbdSuzxg1MzTZh0FVQMXzFMh-B5wGJi2aOAB=w400-h103)](https://blogger.googleusercontent.com/img/a/AVvXsEh54can7DB7dVYbM_kgLu7_1pnWuCMJa8BMwsXQV0_-9hXS4_wItc5CRyZceBfbWh2NSfmZeXr62VOZLTulIKdrUBE7GAK4nAdWX6uzcVOXHDpM_09e_gKzKpQtZpIXk84WnM2ci0EcAiqCkVRhhWlEnbdSuzxg1MzTZh0FVQMXzFMh-B5wGJi2aOAB)
 
@@ -197,7 +195,7 @@ Ví dụ, định dạng màu nền cho phần tử _blockquote_,
 
     }
 ```
-\[Kết quả\]
+[Kết quả]
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEht5S-kbVJn8EZ4swG-mycpsE0372mgrEzli2W9G-orknGsTW9zfRGbumFkolfB2YDzHNVwTcjG6P_sXxPlmyHB65qHMZ4HGnAY7TzZl80Ikk8huKlWt_V4SlDy8q_TA7fFcaG9X-mtOg17ZW2Zrh9b21JRze4hYkZ7TqgTbnMMcpUI2jlIceqAaA1t=w400-h94)](https://blogger.googleusercontent.com/img/a/AVvXsEht5S-kbVJn8EZ4swG-mycpsE0372mgrEzli2W9G-orknGsTW9zfRGbumFkolfB2YDzHNVwTcjG6P_sXxPlmyHB65qHMZ4HGnAY7TzZl80Ikk8huKlWt_V4SlDy8q_TA7fFcaG9X-mtOg17ZW2Zrh9b21JRze4hYkZ7TqgTbnMMcpUI2jlIceqAaA1t)
 
@@ -225,11 +223,11 @@ Ví dụ:
 
 ```html
 
-    <blockquote\>
+    <blockquote>
 
-        <p\>Đây là ví dụ về background-clip</p\>
+        <p>Đây là ví dụ về background-clip</p>
 
-      </blockquote\>
+      </blockquote>
 ```
 ```css
 
@@ -293,7 +291,7 @@ Hình dưới đây là một số ví dụ sử dụng thuộc tính _opacity_,
 
 ### 3.1.4       Xem và đọc thêm
 
-– \[1\] _Jenifer Niederst Robbins, **Learning Web Design**, O’Reilly, 2018, trang 303 - 315_
+– [1] _Jenifer Niederst Robbins, **Learning Web Design**, O’Reilly, 2018, trang 303 - 315_
 
 ### 3.1.5       Bài tập và thực hành
 
@@ -301,7 +299,7 @@ Bài tập 3.1a. Viết lại các đoạn mã trong phần lý thuyết.
 
 Bài tập 3.1b. Định dạng màu cho chữ Google, giống như trong trang google.com
 
-\[Gợi ý làm bài tập\]
+[Gợi ý làm bài tập]
 
 Bài tập 3.1b.
 
@@ -311,21 +309,21 @@ Bài tập 3.1b.
 
 – Sử dụng phần tử _p_ để tạo chữ Google, vì các chữ có màu khác nhau nên sẽ sử dụng phần tử _span_ để tách từng chữ, gán cho mỗi màu một class.
 
-\[index.html\]
+[index.html]
 ```html
-    <p\><span _class_\="blue"\>G</span\>
+    <p><span _class_="blue">G</span>
 
-    <span _class_\="red"\>o</span\>
+    <span _class_="red">o</span>
 
-    <span _class_\="yellow"\>o</span\>
+    <span _class_="yellow">o</span>
 
-    <span _class_\="blue"\>g</span\>
+    <span _class_="blue">g</span>
 
-    <span _class_\="green"\>l</span\>
+    <span _class_="green">l</span>
 
-    <span _class_\="red"\>e</span\></p\>
+    <span _class_="red">e</span></p>
 ```
-\[CSS\]
+[CSS]
 – Chọn phông chữ, tìm trên mạng biết được phông chữ mà google đang dùng là Product Sans, tải phông chữ này về máy. Ví dụ, tải từ đây: [https://www.dafontfree.io/google-logo-font/](https://www.dafontfree.io/google-logo-font/). Giải nén, lưu vào trong thư mục fonts của dự án, xem hình:
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEj-avGBVEukNJwc-n2DIKrcFyaespKFZjOk1tVd0ffzS7E8_PIzKovfiDY0dZL3eGkUV0V-y0FLHumD9ei9ZJf2UYXmb2XYpltrJKmA6fIYc1a-3u_WtoKxZiELthzhKy8Xdf6A5nlHvo5jmB_R6NB8ug3OjBEyA9YkJ3ddFEr72RG6EiRorIlyx2wg=w400-h200)](https://blogger.googleusercontent.com/img/a/AVvXsEj-avGBVEukNJwc-n2DIKrcFyaespKFZjOk1tVd0ffzS7E8_PIzKovfiDY0dZL3eGkUV0V-y0FLHumD9ei9ZJf2UYXmb2XYpltrJKmA6fIYc1a-3u_WtoKxZiELthzhKy8Xdf6A5nlHvo5jmB_R6NB8ug3OjBEyA9YkJ3ddFEr72RG6EiRorIlyx2wg)
@@ -354,7 +352,7 @@ font-size: 90px;
 ```
 – Thu nhỏ khoảng cách giữa các kí tự, căn giữa dòng chữ
 ```css
-      letter-spacing: \-11px;
+      letter-spacing: -11px;
 
       text-align: center;
 ```
@@ -362,19 +360,19 @@ font-size: 90px;
 
 Mã nguồn tham khảo:
 
-\[index.html\]
+[index.html]
 ```html
 <!DOCTYPE _html_ >
 
-<html\>
+<html>
 
-<head\>
+<head>
 
-<meta _charset_\="utf-8"\>
+<meta _charset_="utf-8">
 
-<title\>Google</title\>
+<title>Google</title>
 
-<style\>
+<style>
 
     @font-face {
 
@@ -390,7 +388,7 @@ Mã nguồn tham khảo:
 
         font-size: 90px;
 
-        letter-spacing: \-11px;
+        letter-spacing: -11px;
 
         text-align: center;
 
@@ -404,25 +402,25 @@ Mã nguồn tham khảo:
 
     .green { color: #34a853; }
 
-</style\>
+</style>
 
-</head\>
+</head>
 
-<body\>
+<body>
 
-    <p\><span _class_\="blue"\>G</span\>
+    <p><span _class_="blue">G</span>
 
-    <span _class_\="red"\>o</span\>
+    <span _class_="red">o</span>
 
-    <span _class_\="yellow"\>o</span\>
+    <span _class_="yellow">o</span>
 
-    <span _class_\="blue"\>g</span\>
+    <span _class_="blue">g</span>
 
-    <span _class_\="green"\>l</span\>
+    <span _class_="green">l</span>
 
-    <span _class_\="red"\>e</span\></p\>
+    <span _class_="red">e</span></p>
 
-</body\>
+</body>
 
-</html\>
+</html>
 ```
