@@ -249,12 +249,11 @@
         // Hàm xử lý toán tử
         function handleOperator(nextOperator) {
             const { firstOperand, displayValue, operator } = calculator;
-            // Chuyển giá trị hiển thị thành số thực
             const inputValue = parseFloat(displayValue);
 
             // Kiểm tra Number.isFinite() như trong tài liệu
             if (!Number.isFinite(inputValue) && inputValue !== 0) {
-                 // Không làm gì nếu giá trị hiện tại là NaN, Infinity, -Infinity
+                // Không làm gì nếu giá trị hiện tại là NaN, Infinity, -Infinity
                 calculator.displayValue = 'Lỗi phép toán';
                 updateDisplay();
                 return;
@@ -264,12 +263,18 @@
                 // Đây là toán hạng đầu tiên
                 calculator.firstOperand = inputValue;
             } else if (operator) {
-                // Có toán tử và đã có toán hạng thứ nhất -> Thực hiện tính toán
-                const result = performCalculation[operator](firstOperand, inputValue);
+                // Kiểm tra xem operator có phải là toán tử hợp lệ trong performCalculation không
+                if (performCalculation[operator]) {
+                    // Thực hiện phép toán nếu operator hợp lệ
+                    const result = performCalculation[operator](firstOperand, inputValue);
 
-                // Cập nhật kết quả, làm tròn nếu cần (để tránh lỗi số học dấu phẩy động)
-                calculator.displayValue = String(result);
-                calculator.firstOperand = result;
+                    // Cập nhật kết quả, làm tròn nếu cần (để tránh lỗi số học dấu phẩy động)
+                    calculator.displayValue = String(result);
+                    calculator.firstOperand = result;
+                } else {
+                    // Nếu không hợp lệ, thông báo lỗi
+                    calculator.displayValue = 'Lỗi: Toán tử không hợp lệ';
+                }
             }
 
             // Cập nhật trạng thái cho phép toán tiếp theo
