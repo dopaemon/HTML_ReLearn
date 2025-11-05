@@ -117,6 +117,8 @@
 
 [B10_W25](https://github.com/dopaemon/HTML_ReLearn/blob/master/B10_W25.html)
 
+[B24_JS4](https://github.com/dopaemon/HTML_ReLearn/blob/master/B24_JS4.html)
+
 [Trang_Web_Dau_Tien2](https://github.com/dopaemon/HTML_ReLearn/blob/master/Trang_Web_Dau_Tien2.html)
 
 [README_B1_Web6](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B1_Web6.md)
