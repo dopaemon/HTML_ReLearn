@@ -1,181 +1,129 @@
-# THIẾT KẾ WEB
+# File List
+[B7_W6_BT1.5](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.5.html)
 
------------
+[B13_BT1](https://github.com/dopaemon/HTML_ReLearn/blob/master/B13_BT1.html)
 
-## B1 Nghề làm web
+[README_B13_CSS3](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B13_CSS3.md)
 
-[README_B1_Web5.md](README_B1_Web5.md)
+[Kiem_Tra_HTML](https://github.com/dopaemon/HTML_ReLearn/blob/master/Kiem_Tra_HTML.html)
 
-[README_B1_Web6.md](README_B1_Web6.md)
+[README_B9_W20](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B9_W20.md)
 
-[README_B1_Web7.md](README_B1_Web7.md)
+[B7_W6_BT4](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT4.html)
 
-## B2 Web là gì?
+[README_B12_CSS2](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B12_CSS2.md)
 
-[README_B2_Web1.md](README_B2_Web1.md)
+[README_B10_W24](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B10_W24.md)
 
-[B2_W1_BT2.htm](B2_W1_BT2.html)
+[Form_Login](https://github.com/dopaemon/HTML_ReLearn/blob/master/Form_Login.html)
 
-## B3 Trình duyệt Web
+[B7_W6_BT1.10](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.10.html)
 
-[README_B3_Web2.md](README_B3_Web2.md)
+[README_B14_CSS6](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B14_CSS6.md)
 
-[B3_W2_BT3.htm](B3_W2_BT3.html)
+[README_B2_Web1](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B2_Web1.md)
 
-## B4 URL
+[README_B10_W25](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B10_W25.md)
 
-[README_B4_Web3.md](README_B4_Web3.md)
+[README_B19_CSS14](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B19_CSS14.md)
 
-[B4_W3_BT3.htm](B4_W3_BT3.html)
+[README_B6_Web5](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B6_Web5.md)
 
-## B5 Tạo trang Web đơn giản
+[README_B11_CSS1](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B11_CSS1.md)
 
-[README_B5_Web4.md](README_B5_Web4.md)
+[README_B14_CSS7](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B14_CSS7.md)
 
-[B5_W4_BT2.htm](B5_W4_BT2.html)
+[B5_W4_BT2](https://github.com/dopaemon/HTML_ReLearn/blob/master/B5_W4_BT2.html)
 
-[B5_W4_BT3.htm](B5_W4_BT3.html)
+[B6_W5_BT2](https://github.com/dopaemon/HTML_ReLearn/blob/master/B6_W5_BT2.html)
 
-[B5_W4_BT4.htm](B5_W4_BT4.html)
+[README_B22_JS2](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B22_JS2.md)
 
-## B6 Hoàn thiện trang Web đơn giản
+[README_B14_CSS5](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B14_CSS5.md)
 
-[README_B6_Web5.md](README_B6_Web5.md)
+[B7_W6_BT2](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT2.html)
 
-[B6_W5_BT2.htm](B6_W5_BT2.html)
+[B7_W6_BT1.13](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.13.html)
 
-[B6_W5_BT3.htm](B6_W5_BT3.html)
+[B5_W4_BT4](https://github.com/dopaemon/HTML_ReLearn/blob/master/B5_W4_BT4.html)
 
-[B6_W5_BT4.htm](B6_W5_BT4.html)
+[README_B24_JS4](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B24_JS4.md)
 
-## B7 Hiển thị văn vản
+[B6_W5_BT3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B6_W5_BT3.html)
 
-[README_B7_Web6.md](README_B7_Web6.md)
+[B7_W6_BT1.14](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.14.html)
 
-[B7_W6_BT1.1.html](B7_W6_BT1.1.html)
+[B7_W6_BT1.2](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.2.html)
 
-[B7_W6_BT1.10.html](B7_W6_BT1.10.html)
+[README_B18_CSS13](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B18_CSS13.md)
 
-[B7_W6_BT1.11.html](B7_W6_BT1.11.html)
+[Trang_Web_Dau_Tien](https://github.com/dopaemon/HTML_ReLearn/blob/master/Trang_Web_Dau_Tien.html)
 
-[B7_W6_BT1.12.html](B7_W6_BT1.12.html)
+[B7_W6_BT1.4](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.4.html)
 
-[B7_W6_BT1.13.html](B7_W6_BT1.13.html)
+[B7_W6_BT3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT3.html)
 
-[B7_W6_BT1.14.html](B7_W6_BT1.14.html)
+[B7_W6_BT1.11](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.11.html)
 
-[B7_W6_BT1.15.html](B7_W6_BT1.15.html)
+[README_B18_CSS12](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B18_CSS12.md)
 
-[B7_W6_BT1.2.html](B7_W6_BT1.2.html)
+[B7_W6_BT1.1](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.1.html)
 
-[B7_W6_BT1.3.html](B7_W6_BT1.3.html)
+[README_B3_Web2](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B3_Web2.md)
 
-[B7_W6_BT1.4.html](B7_W6_BT1.4.html)
+[README_B20_CSS15](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B20_CSS15.md)
 
-[B7_W6_BT1.5.html](B7_W6_BT1.5.html)
+[B6_W5_BT4](https://github.com/dopaemon/HTML_ReLearn/blob/master/B6_W5_BT4.html)
 
-[B7_W6_BT1.6.html](B7_W6_BT1.6.html)
+[B7_W6_BT1.3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.3.html)
 
-[B7_W6_BT1.7.html](B7_W6_BT1.7.html)
+[B5_W4_BT3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B5_W4_BT3.html)
 
-[B7_W6_BT1.8.html](B7_W6_BT1.8.html)
+[README_B17_CSS11](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B17_CSS11.md)
 
-[B7_W6_BT1.9.html](B7_W6_BT1.9.html)
+[README_B1_Web5](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B1_Web5.md)
 
-[B7_W6_BT2.htm](B7_W6_BT2.html)
+[B7_W6_BT1.12](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.12.html)
 
-[B7_W6_BT3.htm](B7_W6_BT3.html)
+[B3_W2_BT3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B3_W2_BT3.html)
 
-[B7_W6_BT4.htm](B7_W6_BT4.html)
+[B7_W6_BT1.6](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.6.html)
 
-## B8 Bố cục trang Web
+[B7_W6_BT1.15](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.15.html)
 
-[README_B8_W7.md](README_B8_W7.md)
+[README_B21_JS1](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B21_JS1.md)
 
-## B9 Form
+[README_B9_W19](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B9_W19.md)
 
-[README_B9_W20.md](README_B9_W20.md)
+[README_B8_W7](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B8_W7.md)
 
-## B10 Dự án HTML
+[README_B4_Web3](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B4_Web3.md)
 
-[README_B10_W24.md](README_B10_W24.md)
+[README_B5_Web4](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B5_Web4.md)
 
-[README_B10_W25.md](README_B10_W25.md)
+[README_B7_Web6](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B7_Web6.md)
 
-[B10_W25.html](B10_W25.html)
+[README_B1_Web7](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B1_Web7.md)
 
-## B11 Tổng quan CSS
+[README_B15_CSS8](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B15_CSS8.md)
 
-[README_B11_CSS1.md](EADME_B11_CSS1.md)
+[B7_W6_BT1.8](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.8.html)
 
-## B12 Sự kế thừa xếp lớp
+[B7_W6_BT1.7](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.7.html)
 
-[README_B12_CSS2.md](README_B12_CSS2.md)
+[README_B16_CSS10](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B16_CSS10.md)
 
-## B13 Định chuẩn CSS, box model và đơn vị đo
+[README_B23_JS3](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B23_JS3.md)
 
-[README_B13_CSS3.md](README_B13_CSS3.md)
+[B10_W25](https://github.com/dopaemon/HTML_ReLearn/blob/master/B10_W25.html)
 
-[B13_BT1.hml](B13_BT1.html)
+[Trang_Web_Dau_Tien2](https://github.com/dopaemon/HTML_ReLearn/blob/master/Trang_Web_Dau_Tien2.html)
 
-## B14 Phông chữ
+[README_B1_Web6](https://github.com/dopaemon/HTML_ReLearn/blob/master/README_B1_Web6.md)
 
-[README_B14_CSS5.md](README_B14_CSS5.md)
+[B7_W6_BT1.9](https://github.com/dopaemon/HTML_ReLearn/blob/master/B7_W6_BT1.9.html)
 
-[README_B14_CSS6.md](README_B14_CSS6.md)
+[B2_W1_BT2](https://github.com/dopaemon/HTML_ReLearn/blob/master/B2_W1_BT2.html)
 
-[README_B14_CSS7.md](README_B14_CSS7.md)
+[B4_W3_BT3](https://github.com/dopaemon/HTML_ReLearn/blob/master/B4_W3_BT3.html)
 
-## B15 Bộ chọn
-
-[README_B15_CSS8.md](README_B15_CSS8.md)
-
-## B16 Định dạng màu
-
-[README_B16_CSS10.md](README_B16_CSS10.md)
-
-## B17 Bộ chọn theo trạng thái và thuộc tính
-
-[README_B17_CSS11.md](README_B17_CSS11.md)
-
-## B18 Ảnh nền
-
-[README_B18_CSS12.md](README_B18_CSS12.md)
-
-[README_B18_CSS13.md](README_B18_CSS13.md)
-
-## B19 Mô hình cái hộp
-
-[README_B9_W19.md](README_B9_W19.md)
-
-## B20 BT Mô hình cái hộp
-
-[README_B20_CSS15.md](README_B20_CSS15.md)
-
-## B21 Làm quen JavaScript
-
-[README_B21_JS1.md](README_B21_JS1.md)
-
-## B22 Cú pháp, kiểu dữ liệu và biến
-
-[README_B22_JS2.md](README_B22_JS2.md)
-
-## B23 Phạm vi, kiểu string, xuất chuỗi
-
-[README_B23_JS3.md](README_B23_JS3.md)
-
-## B24 Kiểu dữ liệu number
-
-[README_B24_JS4.md](README_B24_JS4.md)
-
-##
-
-----------------
-
-[Form_Login.html](Form_Login.html)
-
-[Kiem_Tra_HTML.html](Kiem_Tra_HTML.html)
-
-[Trang_Web_Dau_Tien.html](TrangWeb_Dau_Tien.html)
-
-[Trang_Web_Dau_Tien2.html](Trang_eb_Dau_Tien2.html)
