@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy Tính Cầm Tay JavaScript</title>
+    <style>
+      /* Tùy chỉnh CSS cho Máy tính */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            width: 100%;
+            max-width: 380px;
+            padding: 1rem;
+            background-color: #334155; /* Slate-700 */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+            border-radius: 1.5rem;
+            transform: scale(1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .calculator:active {
+            transform: scale(0.99);
+        }
+
+        .calculator-display {
+            background-color: #1e293b; /* Slate-800 */
+            color: #f8fafc; /* White */
+            font-size: 2.5rem;
+            text-align: right;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 0.75rem;
+            overflow-x: auto;
+            white-space: nowrap;
+            height: 5.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            line-height: 1;
+        }
+
+        .calculator-keys {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+        }
+
+        .key {
+            padding: 1.5rem 0.5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 9999px; /* Full rounded */
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out, transform 0.1s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Nút Số (Digits) */
+        .key-digit, .key-decimal {
+            background-color: #475569; /* Slate-600 */
+            color: #f8fafc;
+        }
+
+        .key-digit:hover, .key-decimal:hover {
+            background-color: #64748b; /* Slate-500 */
+        }
+
+        .key-digit:active, .key-decimal:active {
+            transform: translateY(1px);
+        }
+
+        /* Nút Toán tử (Operators) */
+        .key-operator {
+            background-color: #f97316; /* Orange-600 */
+            color: #fff;
+        }
+
+        .key-operator:hover {
+            background-color: #fb923c; /* Orange-500 */
+        }
+
+        .key-operator:active {
+            transform: translateY(1px);
+        }
+
+        /* Nút Đặc biệt (AC/Equals) */
+        .key-ac {
+            background-color: #ef4444; /* Red-500 */
+            color: #fff;
+        }
+
+        .key-ac:hover {
+            background-color: #f87171; /* Red-400 */
+        }
+    
+        .key-ac:active {
+            transform: translateY(1px);
+        }
+
+        .key-equals {
+            background-color: #10b981; /* Emerald-500 */
+            color: #fff;
+            grid-column: span 2; /* Chiếm 2 cột */
+        }
+
+        .key-equals:hover {
+            background-color: #34d399; /* Emerald-400 */
+        }
+
+        .key-equals:active {
+            transform: translateY(1px);
+        }
+
+        /* Responsive design */
+        @media (max-width: 640px) {
+            .calculator {
+                max-width: 90%;
+                margin: 1rem;
+            }
+            .calculator-display {
+                font-size: 2rem;
+            }
+            .key {
+                padding: 1rem 0.5rem;
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- sinh viên nhớ xóa dòng này, đây là dòng thừa -->
+    <div class="calculator">
+        <div id="display" class="calculator-display">0</div>
+        <div class="calculator-keys">
+
+            <!-- Hàng 1 -->
+            <button class="key key-ac" data-action="clear">AC</button>
+            <button class="key key-operator" data-action="modulo">%</button>
+            <button class="key key-operator" data-action="exponentiation">^</button> <!-- Biểu diễn Lũy thừa -->
+            <button class="key key-operator" data-action="divide">/</button>
+
+            <!-- Hàng 2 -->
+            <button class="key key-digit" data-value="7">7</button>
+            <button class="key key-digit" data-value="8">8</button>
+            <button class="key key-digit" data-value="9">9</button>
+            <button class="key key-operator" data-action="multiply">x</button>
+
+            <!-- Hàng 3 -->
+            <button class="key key-digit" data-value="4">4</button>
+            <button class="key key-digit" data-value="5">5</button>
+            <button class="key key-digit" data-value="6">6</button>
+            <button class="key key-operator" data-action="subtract">-</button>
+
+            <!-- Hàng 4 -->
+            <button class="key key-digit" data-value="1">1</button>
+            <button class="key key-digit" data-value="2">2</button>
+            <button class="key key-digit" data-value="3">3</button>
+            <button class="key key-operator" data-action="add">+</button>
+
+            <!-- Hàng 5 -->
+            <button class="key key-digit" data-value="0">0</button>
+            <button class="key key-decimal" data-action="decimal">.</button>
+            <button class="key key-equals" data-action="calculate">=</button>
+        </div>
+    </div>
+
+    <!-- dòng này cũng thừa, các bạn hãy xóa đi -->
+    <script>
+        // Lấy các phần tử DOM cần thiết
+        const display = document.getElementById('display');
+        const keys = document.querySelector('.calculator-keys');
+
+        // Đối tượng lưu trữ trạng thái của máy tính
+        const calculator = {
+            displayValue: '0',
+            firstOperand: null,
+            waitingForSecondOperand: false,
+            operator: null,
+        };
+
+        // Hàm cập nhật màn hình hiển thị
+        function updateDisplay() {
+            // Hiển thị giá trị hiện tại. Cắt bớt nếu quá dài.
+            let displayString = String(calculator.displayValue);
+            // Xử lý các giá trị đặc biệt (Infinity, -Infinity, NaN)
+            if (displayString.includes('Infinity')) {
+                display.textContent = 'Lỗi: Vô cực';
+            } else if (displayString === 'NaN') {
+                display.textContent = 'Lỗi: Không phải số';
+            } else {
+                display.textContent = displayString.length > 18
+                    ? parseFloat(displayString).toPrecision(15)
+                    : displayString;
+            }
+        }
+
+        // Hàm xử lý nhập số
+        function inputDigit(digit) {
+            const { displayValue, waitingForSecondOperand } = calculator;
+
+            if (waitingForSecondOperand === true) {
+                calculator.displayValue = digit;
+                calculator.waitingForSecondOperand = false;
+            } else {
+                // Nếu displayValue là '0', thay thế bằng digit mới, ngược lại nối thêm
+                calculator.displayValue = displayValue === '0' ? digit : displayValue + digit;
+            }
+          
+            updateDisplay();
+        }
+
+        // Hàm xử lý dấu thập phân
+        function inputDecimal(dot) {
+            // Không cho phép nhập dấu thập phân nếu đang chờ toán hạng thứ hai
+            if (calculator.waitingForSecondOperand === true) {
+                calculator.displayValue = '0.';
+                calculator.waitingForSecondOperand = false;
+                updateDisplay();
+                return;
+            }
+
+            // Chỉ cho phép thêm dấu thập phân nếu chưa có
+            if (!calculator.displayValue.includes(dot)) {
+                calculator.displayValue += dot;
+            }
+
+            updateDisplay();
+        }
+
+        // Hàm xử lý toán tử
+        function handleOperator(nextOperator) {
+            const { firstOperand, displayValue, operator } = calculator;
+            // Chuyển giá trị hiển thị thành số thực
+            const inputValue = parseFloat(displayValue);
+
+            // Kiểm tra Number.isFinite() như trong tài liệu
+            if (!Number.isFinite(inputValue) && inputValue !== 0) {
+                 // Không làm gì nếu giá trị hiện tại là NaN, Infinity, -Infinity
+                calculator.displayValue = 'Lỗi phép toán';
+                updateDisplay();
+                return;
+            }
+
+            if (firstOperand === null) {
+                // Đây là toán hạng đầu tiên
+                calculator.firstOperand = inputValue;
+            } else if (operator) {
+                // Có toán tử và đã có toán hạng thứ nhất -> Thực hiện tính toán
+                const result = performCalculation\[operator\](firstOperand, inputValue);
+                // Cập nhật kết quả, làm tròn nếu cần (để tránh lỗi số học dấu phẩy động)
+                calculator.displayValue = String(result);
+                calculator.firstOperand = result;
+            }
+
+            // Cập nhật trạng thái cho phép toán tiếp theo
+            calculator.waitingForSecondOperand = true;
+            calculator.operator = nextOperator;
+            updateDisplay();
+        }
+
+        // Đối tượng chứa logic tính toán cho từng toán tử
+        const performCalculation = {
+            '/': (firstOperand, secondOperand) => firstOperand / secondOperand,
+            '\*': (firstOperand, secondOperand) => firstOperand \* secondOperand,
+            '+': (firstOperand, secondOperand) => firstOperand + secondOperand,
+            '-': (firstOperand, secondOperand) => firstOperand - secondOperand,
+            // Lũy thừa (Exponentiation): sử dụng toán tử \*\*
+            '^': (firstOperand, secondOperand) => firstOperand \*\* secondOperand,
+            // Phép chia dư (Modulo)
+            '%': (firstOperand, secondOperand) => firstOperand % secondOperand,
+        };
+
+        // Hàm thiết lập lại máy tính
+        function resetCalculator() {
+            calculator.displayValue = '0';
+            calculator.firstOperand = null;
+            calculator.waitingForSecondOperand = false;
+            calculator.operator = null;
+            updateDisplay();
+        }
+
+        // Lắng nghe sự kiện click trên các nút
+        keys.addEventListener('click', (event) => {
+            const { target } = event;
+            const action = target.dataset.action;
+            const value = target.dataset.value;
+
+            // Đảm bảo chỉ xử lý các nút (button)
+            if (!target.matches('button')) {
+                return;
+            }
+
+            // Xử lý nút số
+            if (value !== undefined) {
+                inputDigit(value);
+                return;
+            }
+
+            // Xử lý các hành động
+            if (action === 'decimal') {
+                inputDecimal('.');
+                return;
+            }
+
+            if (action === 'clear') {
+                resetCalculator();
+                return;
+            }
+
+            // Nếu là phép toán hoặc dấu bằng
+            if (action) {
+                if (action === 'calculate') {
+                    // Xử lý phép tính cuối cùng
+                    handleOperator(calculator.operator);
+                    calculator.waitingForSecondOperand = true;
+                    calculator.operator = null; // Kết thúc phép toán
+                } else {
+                    // Xử lý toán tử tiếp theo
+                    handleOperator(action);
+                }
+                return;
+            }
+        });
+
+        // Khởi tạo hiển thị
+        updateDisplay();
+    </script>
+</body>
+</html>
