@@ -1,0 +1,150 @@
+/* Tùy chỉnh CSS cho Máy tính */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 380px;
+    padding: 1rem;
+    background-color: #334155;
+    /* Slate-700 */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.calculator:active {
+    transform: scale(0.99);
+}
+
+.calculator-display {
+    background-color: #1e293b;
+    /* Slate-800 */
+    color: #f8fafc;
+    /* White */
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 1;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.key {
+    padding: 1.5rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 9999px;
+    /* Full rounded */
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, transform 0.1s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+}
+
+/* Nút Số (Digits) */
+.key-digit,
+.key-decimal {
+    background-color: #475569;
+    /* Slate-600 */
+    color: #f8fafc;
+}
+
+.key-digit:hover,
+.key-decimal:hover {
+    background-color: #64748b;
+    /* Slate-500 */
+}
+
+.key-digit:active,
+.key-decimal:active {
+    transform: translateY(1px);
+}
+
+/* Nút Toán tử (Operators) */
+.key-operator {
+    background-color: #f97316;
+    /* Orange-600 */
+    color: #fff;
+}
+
+.key-operator:hover {
+    background-color: #fb923c;
+    /* Orange-500 */
+}
+
+.key-operator:active {
+
+    transform: translateY(1px);
+}
+
+/* Nút Đặc biệt (AC/Equals) */
+.key-ac {
+    background-color: #ef4444;
+    /* Red-500 */
+    color: #fff;
+}
+
+.key-ac:hover {
+    background-color: #f87171;
+    /* Red-400 */
+}
+
+.key-ac:active {
+    transform: translateY(1px);
+}
+
+.key-equals {
+    background-color: #10b981;
+    /* Emerald-500 */
+    color: #fff;
+    grid-column: span 2;
+    /* Chiếm 2 cột */
+}
+
+.key-equals:hover {
+    background-color: #34d399;
+    /* Emerald-400 */
+}
+
+.key-equals:active {
+    transform: translateY(1px);
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+    .calculator {
+        max-width: 90%;
+        margin: 1rem;
+    }
+
+    .calculator-display {
+        font-size: 2rem;
+    }
+
+    .key {
+        padding: 1rem 0.5rem;
+        font-size: 1.25rem;
+    }
+}
